@@ -11,4 +11,8 @@ public class Demo01Controller {
         return "index";//htmlを編集して返す
     }
     
+    @RequestMapping("/about")
+    String about(){
+        return "about";
+    }
 }
